@@ -1,0 +1,37 @@
+.background {
+    background-color: cadetblue;
+    font-family: 'Gwendolyn', cursive;
+   }
+   
+   h1 {
+       font-size: 4rem !important;
+   }
+   
+   .mirror {
+       transform: rotateY(180deg);
+   }
+   
+   .calendar {
+       position: relative;
+   }
+   
+   .day img {
+       box-shadow: 0 0 30px rgb(206, 206, 206);
+   }
+   
+   .img-text {
+       transform: scale(1.2);
+       display: none;
+   }
+
+   .hide {
+       display: none;
+   }
+
+   .show {
+       display: block; 
+   }
+   
+   .img-text img {
+       box-shadow: 0 0 30px rgb(102, 237, 247);
+   }
